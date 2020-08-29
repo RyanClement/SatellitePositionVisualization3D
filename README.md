@@ -28,16 +28,24 @@ If your sole interst is viewing current satellite positions and please visit one
 This web application can be *served* by any means. 
 
 ### nodejs
-However, to aid potential users the project includes a simple [node.js](http://nodejs.org/) server. The *server.js* code is from [cesium-workshop](https://github.com/CesiumGS/cesium-workshop.git
+The project includes a simple [node.js](http://nodejs.org/) server. The *server.js* code is from [cesium-workshop](https://github.com/CesiumGS/cesium-workshop.git
 ). The webpage for the *cesium-workshop* is [cesium-workshop](https://cesium.com/docs/tutorials/cesium-workshop/).
 
-To use this packaged server enter the following from withing the *SatellitePositionVisualization3D* root directory:
+To use this packaged server enter the following from within the *SatellitePositionVisualization3D* root directory:
 ```
 npm install
 npm start
 ```
 Then browse to `http://localhost:8080/`
 
-### Python3
+### python3
+Type:
+```
+python -m http.server 8080
+```
+Then browse to `http://localhost:8080/`
+
+
+
 ## License
 Apache 2.0.  Free for commercial and non-commercial use.  See [LICENSE.md](LICENSE.md).
