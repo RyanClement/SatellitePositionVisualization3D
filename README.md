@@ -16,7 +16,7 @@ The purpose for this project is to make an easy to use and fully customizable op
 
 
 ### Alternatives
-If your sole interst is viewing current satellite positions and please visit one of following **not exhaustive** list of sites:
+If your sole interst is viewing current satellite positions and please visit one of following websites from the following **not exhaustive** list:
 * [CELESTRAK](celestrak.com)
 * [ESRI](https://maps.esri.com/rc/sat2/index.html)
 * [in-the-sky](https://in-the-sky.org/satmap_worldmap.php)
@@ -25,8 +25,19 @@ If your sole interst is viewing current satellite positions and please visit one
 
 
 ## Local Server
+This web application can be *served* by any means. 
 
+### nodejs
+However, to aid potential users the project includes a simple [node.js](http://nodejs.org/) server. The *server.js* code is from [cesium-workshop](https://github.com/CesiumGS/cesium-workshop.git
+). The webpage for the *cesium-workshop* is [cesium-workshop](https://cesium.com/docs/tutorials/cesium-workshop/).
 
+To use this packaged server enter the following from withing the *SatellitePositionVisualization3D* root directory:
+```
+npm install
+npm start
+```
+Then browse to `http://localhost:8080/`
 
+### Python3
 ## License
 Apache 2.0.  Free for commercial and non-commercial use.  See [LICENSE.md](LICENSE.md).
