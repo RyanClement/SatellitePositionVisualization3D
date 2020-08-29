@@ -1,0 +1,26 @@
+{
+  "name": "Satellite-Position-Visualization-3D",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ryan Clement"
+  },
+  "keywords": [
+    "satellite"
+  ],
+  "description": "Satellite position visualization application with with Cesium.",
+  "homepage": "https://ryanclement.github.io/SatellitePositionVisualization3D/",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyanClement/SatellitePositionVisualization3D"
+  },
+  "dependencies": {
+    "express": "^4.15",
+    "compression": "^1.6.2",
+    "request": "^2.79.0",
+    "yargs": "^8.0.1"
+  },
+  "engines": {
+    "node": "~12.18.x"
+  }
+}
