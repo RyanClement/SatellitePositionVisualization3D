@@ -16,7 +16,7 @@ The purpose for this project is to make an easy to use and fully customizable op
 
 
 ### Alternatives
-If your sole interst is viewing current satellite positions and please visit one of following websites from the following **not exhaustive** list:
+If your sole interst is viewing current satellite positions please visit one of following websites from the following **not exhaustive** list:
 * [CELESTRAK](celestrak.com)
 * [ESRI](https://maps.esri.com/rc/sat2/index.html)
 * [in-the-sky](https://in-the-sky.org/satmap_worldmap.php)
