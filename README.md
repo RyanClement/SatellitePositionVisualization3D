@@ -8,4 +8,6 @@ Please visit the CesiumJS webpage at:
     </a>
 </p>
 
+
+## LICENSE
 **License**: Apache 2.0.  Free for commercial and non-commercial use.  See [LICENSE.md](LICENSE.md).
